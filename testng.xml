@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="simplepackage.Second_case"/>
-      <class name="simplepackage.Simple_login"/>
+      <class name="simplepackage.InvokeCount"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
