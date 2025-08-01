@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="simplepackage.Assert_Methods">
+      <class name="listeners_package.Testcase1">
         <methods>
-          <include name="asserts_m"/>
+          <include name="testcase"/>
         </methods>
-      </class> <!-- simplepackage.Assert_Methods -->
+      </class> <!-- listeners_package.Testcase1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
