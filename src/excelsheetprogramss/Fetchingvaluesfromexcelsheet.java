@@ -10,7 +10,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-public class Fetchingvalues {
+public class Fetchingvaluesfromexcelsheet {
 	public static void main(String[] args) throws EncryptedDocumentException, IOException {
 
 		FileInputStream f1 = new FileInputStream("C:\\Users\\Dell Latitude 3400\\eclipse-workspace\\Selenium3\\Excelsheet\\Anuradha.xlsx");

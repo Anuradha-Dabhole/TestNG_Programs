@@ -15,7 +15,6 @@ public class Firstclass1 {
              String window=driver.getWindowHandle();
              System.out.println(window);
              Set<String> window1=driver.getWindowHandles();
-
              driver.quit();
 	}
 
