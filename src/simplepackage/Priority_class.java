@@ -2,7 +2,7 @@ package simplepackage;
 
 import org.testng.annotations.Test;
 
-public class Simple_login 
+public class Priority_class
 {
 	@Test(priority=3)
 	public void login()

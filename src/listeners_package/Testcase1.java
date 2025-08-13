@@ -15,7 +15,9 @@ public class Testcase1 extends Logic_Of_Listener{
 	
 	
 	 driver=new ChromeDriver();
-    driver.get("https://www.amazon.in");
+    driver.get("https://www.amazon.in");//test case pass
+   // driver.get("https://www.google.com");//test case fail
+
     driver.manage().window().maximize();
     //driver.findElement(By.id("manish")).sendKeys("shoe");
 

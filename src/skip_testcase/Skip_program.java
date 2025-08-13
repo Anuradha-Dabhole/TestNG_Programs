@@ -8,7 +8,7 @@ public class Skip_program
 @Test
 public void login()
 {
-Assert.assertTrue(false);
+Assert.assertTrue(true);
 }
 @Test(dependsOnMethods="login")//logout method is depend on login method
 public void logout()

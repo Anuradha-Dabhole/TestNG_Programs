@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="skip_testcase.Skip_program">
+      <class name="simplepackage.Shadow_root">
         <methods>
-          <include name="logout"/>
-          <include name="login"/>
+          <include name="Airline"/>
         </methods>
-      </class> <!-- skip_testcase.Skip_program -->
+      </class> <!-- simplepackage.Shadow_root -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

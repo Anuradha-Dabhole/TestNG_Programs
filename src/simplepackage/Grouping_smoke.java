@@ -2,7 +2,7 @@ package simplepackage;
 
 import org.testng.annotations.Test;
 
-public class Grouping
+public class Grouping_smoke
 {
 @Test(groups={"smoke","system"}) 
 public void method1() 
